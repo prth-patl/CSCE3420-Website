@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.3",
     "aws-amplify": "^6.16.4",
     "fast-xml-parser": "^5.7.1",
     "react": "^19.2.5",
@@ -20,6 +21,7 @@
     "@aws-amplify/backend": "^1.22.0",
     "@aws-amplify/backend-cli": "^1.8.2",
     "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
@@ -34,8 +36,7 @@
     "typescript": "^5.9.3",
     "vite": "^8.0.10"
   },
-
-    "engines": {
+  "engines": {
     "node": "20",
     "npm": "10"
   }

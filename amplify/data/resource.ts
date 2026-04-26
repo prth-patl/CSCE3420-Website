@@ -53,8 +53,7 @@
 // // return <ul>{todos.map(todo => <li key={todo.id}>{todo.content}</li>)}</ul>
 
 
-import { type ClientSchema, a, defineData } from "@aws-amplify/
-backend";
+import { type ClientSchema, a, defineData } from "@aws-amplify/backend";
 import { postConfirmation } from "../auth/post-confirmation/resource";
 const schema = a
  .schema({
